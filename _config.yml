@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://blog.arnaudbrousseau.com
+title: Web logs
+subtitle: Log your mistakes and you won't be bound to live through them again
+author: Arnaud Brousseau
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
@@ -20,7 +20,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:title/
 source: source
 destination: public
 plugins: plugins
@@ -47,7 +47,7 @@ default_asides: [asides/recent_posts.html, asides/twitter.html, asides/delicious
 # ----------------------- #
 
 # Twitter
-twitter_user:
+twitter_user: arnaudbrousseau
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
